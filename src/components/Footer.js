@@ -6,7 +6,6 @@ import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
-  const email = process.env.REACT_APP_EMAIL;
   return (
     <Container fluid className="footer">
       <Row>

@@ -6,7 +6,6 @@ import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 
 function Home2() {
   // Email dari env
-  const email = process.env.REACT_APP_EMAIL;
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
